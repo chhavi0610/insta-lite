@@ -1,10 +1,9 @@
 # Insta Lite
 
-Insta Lite is a simple Instagram-style application built as part of the
-**TRUEiGTECH Software Engineer Task Round**.
-The project demonstrates backend API development, database design,
+Insta Lite is a simple Instagram-style application.The project demonstrates backend API development, database design,
 authentication, and basic frontend integration.
-###HOW TO RUN 
+
+##HOW TO RUN 
 1. Clone the Repository
 2. Open the Terminal
 3. Go to the path: instagram-backend
