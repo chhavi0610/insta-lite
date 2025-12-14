@@ -15,13 +15,25 @@ authentication, and basic frontend integration.
 - Express.js
 - MySQL
 - JWT Authentication
+## How to run 
+1. Open Terminal and go to backend folder:
+cd instagram-backend
+2. Install dependencies
+npm install
+3. Start server
+node index.js
 
 ### Frontend
 - Angular
 - Bootstrap
 
----
-
+## How to run 
+1. Open Terminal and go to backend folder:
+cd instagram-frontend
+2. Install dependencies
+npm install
+3. Start server
+ng serve
 ## Features Implemented
 
 ### User Authentication
@@ -65,4 +77,5 @@ The schema supports required one-to-many and many-to-many relationships.
 ---
 
 ## Project Structure
+
 
