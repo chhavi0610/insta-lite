@@ -4,7 +4,15 @@ Insta Lite is a simple Instagram-style application built as part of the
 **TRUEiGTECH Software Engineer Task Round**.
 The project demonstrates backend API development, database design,
 authentication, and basic frontend integration.
-
+###HOW TO RUN 
+1. Clone the Repository
+2. Open the Terminal
+3. Go to the path: instagram-backend
+4. Install dependencies : npm install
+5. Start the server: node index.js
+6. For frontend go to path: instalite-frontend
+7. Install dependencies: npm install
+8. Start the server: ng serve
 ## Tech Stack
 
 ### Backend
