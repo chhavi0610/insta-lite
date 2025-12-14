@@ -65,7 +65,3 @@ Tables used:
 - followers
 - likes
 - comments
-
-
-## Project Structure
-
