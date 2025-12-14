@@ -1,0 +1,52 @@
+<div class="container my-2">
+
+  <div *ngIf="posts.length === 0" class="text-center text-muted">
+    <p>No posts to show. Follow users to see posts.</p>
+  </div>
+
+  <div class="card my-2" *ngFor="let p of posts">
+
+    <div class="card-header">
+      <strong>{{ p.username }}</strong>
+    </div>
+
+    <img [src]="p.image_url" class="card-img-top post-image">
+
+    <div class="card-body">
+
+      <p>{{ p.caption }}</p>
+
+      <button
+        class="btn btn-sm"
+        [ngClass]="p.likedByMe ? 'btn-danger' : 'btn-outline-primary'"
+        (click)="p.likedByMe ? unlikePost(p) : likePost(p)">
+        {{ p.likedByMe ? 'Unlike' : 'Like' }}
+      </button>
+
+      <span class="ms-2 text-muted">
+        {{ p.likeCount }} likes
+      </span>
+
+      <div style="margin-top: 8px;">
+
+        <div *ngFor="let c of p.comments">
+      <small>
+        <b>{{ c.username }}</b> {{ c.comment_text }}
+      </small>
+    </div>
+        <input
+          type="text"
+          class="form-control form-control-sm"
+          placeholder="Add a comment"
+          [(ngModel)]="p.commentText">
+
+        <button
+          class="btn btn-sm btn-outline-success"
+          style="margin-top: 4px;"
+          (click)="addComment(p)">Comment</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>
