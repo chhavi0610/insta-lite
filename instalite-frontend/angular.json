@@ -22,7 +22,7 @@
               }
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
               
             ]
@@ -88,3 +88,4 @@
     "analytics": "ef248023-bd44-4f25-801b-3812786f170b"
   }
 }
+
