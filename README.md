@@ -5,13 +5,14 @@ authentication, and basic frontend integration.
 
 ##HOW TO RUN 
 1. Clone the Repository
-2. Open the Terminal
-3. Go to the path: instagram-backend
-4. Install dependencies : npm install
-5. Start the server: node index.js
-6. For frontend go to path: instalite-frontend
-7. Install dependencies: npm install
-8. Start the server: ng serve
+2. Add MySQL Database to your host by running schema.sql on your CLI.
+3. Open the Terminal
+4. Go to the path: instagram-backend
+5. Install dependencies : npm install
+6. Start the server: node index.js
+7. For frontend go to path: instalite-frontend
+8. Install dependencies: npm install
+9. Start the server: ng serve
 ## Tech Stack
 
 ### Backend
